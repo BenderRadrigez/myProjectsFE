@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #e5e5e5;
+  font-family: 'PT Sans', sans-serif;
+}
+/* ------- all block settings in the body -------- */
+.main {
+  width: 1240px;
+  height: 930px;
+  position: relative;
+  left: 20%;
+}
+.window {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background: #fff;
+  border-radius: 20px;
+  position: absolute;
+}
+.left,
+.header {
+  top: 80px;
+}
+.left {
+  left: 80px;
+  width: 255px;
+  height: 770px;
+  background: #f2f2f2;
+}
+.header,
+.messenger {
+  left: 360px;
+}
+.header {
+  height: 90px;
+  width: 770px;
+}
+.messenger,
+.team {
+  top: 195px;
+}
+.messenger {
+  width: 350px;
+  height: 655px;
+}
+.team,
+.project-onboarding {
+  left: 740px;
+  width: 390px;
+}
+.team {
+  height: 325px;
+}
+.project-onboarding {
+  top: 544px;
+  height: 305px;
+}
+/* ------- .left menu settings -------- */
+.left img {
+  width: 130px;
+  margin-bottom: 40px;
+}
+
+.menu-buttons {
+    padding-left: 20px;
+}
+
+.menu-buttons p {
+    margin-top: 20px;
+}
+
+.menu-buttons p button {
+    font-size: 17px;
+    font-weight: 700;
+    border: none;
+    color: #8b857c;
+
+}
+
+.menu-buttons p button:focus{
+    color: #060102;
+}
+.menu-buttons p button:hover {
+    cursor: pointer;
+}
+
+.menu-buttons p button i {
+    margin-right: 15px;
+}
+
+.menu-buttons p .plus i {
+    color: #060102;
+    font-size: 13px;
+    padding: 5px;
+    border-radius: 50%;
+    background: #ebe6e2;
+
+}
+
+.marketing {
+    margin: 120px 25px 60px 25px;
+    border-radius: 15px;
+    width: 200px;
+    height: 150px;
+    background: url(https://images.unsplash.com/photo-1682686581498-5e85c7228119?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-size: cover;
+    background-position: center;
+}
+ 
+/* ------- .header settings -------- */
+
+/* ------- .message settings -------- */
+
+/* ------- .team settings -------- */
+
+/* ------- .project-onboarding settings -------- */

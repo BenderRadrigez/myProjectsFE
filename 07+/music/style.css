@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lora', serif;
+}
+body{
+    height: 100vh;
+}
+.conteiner{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+.sidebar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 35%;
+    transition: transform .5s ease-in-out;
+}
+.sidebar>div{
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+.sidebar h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.slides{
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 35%;
+    width: 65%;
+    transition: transform .5s ease-in-out;
+}
+.slides>div{
+    height: 100%;
+}
+.slides>div img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+button{
+    background: #fff;
+    font-size: 16px;
+    padding: 15px;
+    border: 0;
+    cursor: pointer;
+    color: #aaa;
+}
+button:hover{
+    color: #222;
+}
+button:focus{
+    outline: none;
+}
+
+.conteiner .controls button{
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    z-index: 100;
+}
+.conteiner .controls .down-btn{
+    transform: translateX(-100%);
+    border-radius: 5px 0 0 5px;
+}
+
+.conteiner .controls .up-btn{
+    border-radius: 0 5px 5px 0;
+    border-left: 1px solid #222;
+}

@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+
+}
+
+div {
+    height: 300px;
+    width: 300px;
+    border-radius: 15px;
+    border: 1px solid #000;
+}

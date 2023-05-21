@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap');
+
+/* ---------- main ---------- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+body{
+    height: 100vh;
+    background: #fff;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.left-block,
+.right-block{
+    width: 500px;
+    height: 500px;
+    max-width: 600px;
+    max-width: 600px;
+}
+
+/* ---------- left-block ---------- */
+.left-block img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+}
+
+/* ---------- right-block ---------- */
+.right-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.right-block h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.right-block p{
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-bottom: 20px;
+    width: 450px;
+    line-height: 25px;
+}
+.right-block ul{
+    margin-bottom: 30px;
+}
+.right-block ul li{
+    margin: 7px;
+    font-size: 18px;
+}
+.right-block a{
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border: 3px solid #c58972;
+    padding: 20px 50px;
+    border-radius: 50px;
+    transition: .2s ease-in-out;
+}
+.right-block a:hover{
+    background: #cc957f;
+    color: #fff;
+}
+.right-block a:focus {
+    transform: scale(95%);
+}
