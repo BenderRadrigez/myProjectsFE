@@ -93,22 +93,22 @@ body {
 .right-block a {
   text-decoration: none;
   letter-spacing: 2px;
-  background: #D6BAD0; /* fallback for old browsers */
+  background: #d6bad0; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to left,
-    #B1ACC1,
-    #D6BAD0
+    #b1acc1,
+    #d6bad0
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to left,
-    #B1ACC1,
-    #D6BAD0
+    #b1acc1,
+    #d6bad0
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   padding: 20px 70px;
   border-radius: 15px;
   color: #fff;
-  transition: .3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
-.right-block a:hover{
-    padding: 20px 100px;  
+.right-block a:hover {
+  padding: 20px 100px;
 }
