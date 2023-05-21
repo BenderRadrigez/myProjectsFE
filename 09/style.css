@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400;600&display=swap");
+/* ---------- main settings ---------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Wix Madefor Display", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+}
+/* ---------- conteiner settings ---------- */
+body {
+  background: url(https://images.unsplash.com/photo-1517315003714-a071486bd9ea?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.conteiner {
+  width: 80vw;
+  height: 80vh;
+  background: #f0f0f0;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding: 50px;
+}
+.conteiner > div {
+  flex: 1;
+}
+/* ---------- left-block ---------- */
+.left-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.left-block img {
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+}
+
+.left-block h2 {
+  font-size: 2rem;
+  letter-spacing: 3px;
+  margin: 50px;
+}
+
+.left-block ul {
+  list-style: none;
+  display: flex;
+}
+.left-block ul li {
+  margin: 20px;
+  text-align: center;
+}
+.left-block ul li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 2rem;
+  display: inline-block;
+  border-radius: 10px;
+  width: 40px;
+  transition: 0.3s ease-in-out;
+}
+.left-block ul li a:hover {
+  color: #fff;
+  background: #f4d7d2;
+  width: 70px;
+}
+/* ---------- right-block ---------- */
+.right-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.right-block > p {
+  font-size: 1.5rem;
+  margin: 40px 10px;
+  text-align: center;
+}
+.right-block .text-header {
+  font-weight: 600;
+  font-style: italic;
+}
+.right-block a {
+  text-decoration: none;
+  letter-spacing: 2px;
+  background: #D6BAD0; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #B1ACC1,
+    #D6BAD0
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #B1ACC1,
+    #D6BAD0
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding: 20px 70px;
+  border-radius: 15px;
+  color: #fff;
+  transition: .3s ease-in-out;
+}
+.right-block a:hover{
+    padding: 20px 100px;  
+}
