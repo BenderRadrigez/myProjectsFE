@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 500px;
+    height: 350px;
+    border: 1px solid ;
+    border-radius: 15px;
+    background: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.sotial{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+.sotial li {
+    display: inline-block;
+    width: 80px;
+    padding-top: 10px;
+    text-align: center;
+    aspect-ratio: 1;
+    border-radius: 50%;
+}
+.sotial li a i{
+    font-size: 30px;
+    color: var(--clr);
+}
+.sotial li>a {
+    text-decoration: none;
+    color: #000;
+}
+.sotial li,
+.sotial li a,
+.sotial li a i{
+    transition: .5s ease-in-out;
+}
+.sotial li:hover{
+    background: var(--clr);
+}
+.sotial li:hover a,
+.sotial li:hover a i{
+    color: white;
+}
+
+.phone-number{
+    cursor: pointer;
+    padding: 10px;
+    width: 130px;
+    height: 100px;
+    background: #000;
+    border: none;
+    text-decoration: none;
+    border-radius: 50%;
+    transition: .5s ease-in-out;
+}
+.phone-number span{
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.star{
+    list-style: none;
+    background: #fff;
+    aspect-ratio: 1;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: .5s;
+}
+.phone-number:hover{
+    box-shadow: rgb(255, 255, 255) 0px 0px 20px 30px;
+    background: #ffffff;
+}
+.phone-number:hover ~ .star{
+    box-shadow: rgb(255, 255, 255) 0px 0px 70px 20px;
+    background: #fff;
+}
